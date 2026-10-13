@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unit Plan CAD"
+  short_description: "Draft apartment plans with CAD MCP and your own local references"
+  default_prompt: "Use $unit-plan-cad to draft my zoning using my local project reference. Confirm the input and project profile before drafting."

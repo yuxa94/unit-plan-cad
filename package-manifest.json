@@ -1,0 +1,425 @@
+{
+  "version": "0.3.0-public",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 83,
+      "sha256": "79fa22285db7c627a2a9dcf06587a138c39faedfb4e1f3f5992de6893c2f81b6"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 474,
+      "sha256": "2aad02c736f06c79e7028105824e59db9bcba49b82373d43b0e88834d8ddc937"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 222,
+      "sha256": "1f258d91ab14cfef53c45e6d71bf24f592c3be46808115b2c98fd9a0dd9890f7"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 282,
+      "sha256": "e98037df5f966f94fac5f738f56e6825dd153b1de128271819c15ca46b51f9cd"
+    },
+    {
+      "path": "assets/examples/zoning-editor/index.html",
+      "bytes": 38628,
+      "sha256": "2ef737f94ca936ca1347f80c8f24ce2b7ff20875289dc15fbee91c36c3100fac"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/01-approximate/expected.md",
+      "bytes": 470,
+      "sha256": "052a3ef8d7cdb8d5718a71304b2dff275a9124f97e289bfc3e8921fa5d10cf6b"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/01-approximate/input.dxf",
+      "bytes": 2501,
+      "sha256": "457c174d968cda93b2cb1b8567b1fb681609073d9ecca63fcff7d77b8a773c77"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/01-approximate/input.json",
+      "bytes": 4337,
+      "sha256": "602ea110be70be356adffc0f2b54dd8ade81874db7fb1cc3ae3637b5e46947a5"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/01-approximate/preview.svg",
+      "bytes": 1447,
+      "sha256": "913b1b170a58d565b2ef1a2ebbed3b028cced2070252bca2827c0925c923a77e"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/02-centerline/expected.md",
+      "bytes": 467,
+      "sha256": "5a566df4a190273510c35520bf796b22ed6424896886822c784d25558e220b67"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/02-centerline/input.dxf",
+      "bytes": 2501,
+      "sha256": "457c174d968cda93b2cb1b8567b1fb681609073d9ecca63fcff7d77b8a773c77"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/02-centerline/input.json",
+      "bytes": 4453,
+      "sha256": "3e242a739d83965d75669dec5954797958bbea136790fd67166825c6ca22cbf5"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/02-centerline/preview.svg",
+      "bytes": 1447,
+      "sha256": "913b1b170a58d565b2ef1a2ebbed3b028cced2070252bca2827c0925c923a77e"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/03-finish-face/expected.md",
+      "bytes": 466,
+      "sha256": "33d47c9c144b8835a07020d0253fa551ef47444e8b85dec17d01b5a8a94f380f"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/03-finish-face/input.dxf",
+      "bytes": 2501,
+      "sha256": "5544c06256f5b0bb1e95663507445feda0a49e0ad19f3779d568ca099c231096"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/03-finish-face/input.json",
+      "bytes": 4453,
+      "sha256": "e978de02f148cf14a5af0c4a9c4878054aca786e6d24e9863e427ad18bc49aea"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/03-finish-face/preview.svg",
+      "bytes": 1447,
+      "sha256": "4c839ba269078fe3771bc483e442c9d5cdeded2bccb31f8ceacf0a02de6725c1"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/04-missing-name/expected.md",
+      "bytes": 425,
+      "sha256": "4c54a3654b7742931e4b878c4b061c76b5678a4e53cfaf8dcac03c5bc4130505"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/04-missing-name/input.dxf",
+      "bytes": 2358,
+      "sha256": "745a682935c72c1782a5409368b9d78032c5b2025876738cb2a318496948c7ec"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/04-missing-name/input.json",
+      "bytes": 4288,
+      "sha256": "982e2cc79fb7a4d37adf37584af0241d6849139e25054e39128667838efe8c8a"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/04-missing-name/preview.svg",
+      "bytes": 1349,
+      "sha256": "d0003e305cc1f08de8e64a3324bf8c7c81a6bd1a0d57c1055addb30e08651238"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/05-duplicate-name/expected.md",
+      "bytes": 439,
+      "sha256": "058ebd2f877a16b51c4ca324aae82dd828887f50b36b806269802c3348b615e0"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/05-duplicate-name/input.dxf",
+      "bytes": 2639,
+      "sha256": "56ad48ee6f3d436c2c1a1c70a9deb720db016029c6ea3277dc398d388b642df2"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/05-duplicate-name/input.json",
+      "bytes": 4699,
+      "sha256": "52c004847e46620256d8791db86db17e7f4354a782e008abe9595a3d4bf24c02"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/05-duplicate-name/preview.svg",
+      "bytes": 1540,
+      "sha256": "cd7fe7abc78776c4de1dd5fba886539dd6add5b2aa4d4a1258e59a03f2001b24"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/06-open-boundary/expected.md",
+      "bytes": 430,
+      "sha256": "4072858079ff955fd74700b42b265fc8eb9409017da0071003d6c99bdbdbe906"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/06-open-boundary/input.dxf",
+      "bytes": 2501,
+      "sha256": "fe09abf0803f945530dfeba640610862159d1843486824847802e9ba325780c4"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/06-open-boundary/input.json",
+      "bytes": 4493,
+      "sha256": "2bdc88a221cf6a09032485db56492f873ce830c3ed2fa61efe99c0cb233cb86a"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/06-open-boundary/preview.svg",
+      "bytes": 1448,
+      "sha256": "4834056e6d390631ff0ae5ddbf4d5b30cdf43743ae661f03733133d0179ffdd7"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/07-overlap/expected.md",
+      "bytes": 436,
+      "sha256": "43366ff5d08bbc99db2a9cfdce80af40ce1954139b0f6183d2ab1d06473c6ddd"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/07-overlap/input.dxf",
+      "bytes": 2501,
+      "sha256": "e1079b6acda6748c5bd8f153a4feef94ba86205be9801c2a107c46cf276cfd57"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/07-overlap/input.json",
+      "bytes": 4492,
+      "sha256": "a63df8453784dab3404b5b5e9864b54c95b41fbf69271fca0c4f5698ae49fd85"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/07-overlap/preview.svg",
+      "bytes": 1447,
+      "sha256": "b959cbd056ff0d076db2aba5ca78052755c210517b01977810b8c567e4ad82e1"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/08-centimeter/expected.md",
+      "bytes": 470,
+      "sha256": "eef40a2afdbe968935648fef3869becf3164f090b90e8b5dd22550b8e5722c71"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/08-centimeter/input.dxf",
+      "bytes": 2555,
+      "sha256": "8de8fa4cdcaa0f4ef8bf8d92427c00600f2db6293953da132260929c792b510e"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/08-centimeter/input.json",
+      "bytes": 4510,
+      "sha256": "675b05c26325404b65b70631901516d134820d7fba1f06bc42d13da9f3ab648d"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/08-centimeter/preview.svg",
+      "bytes": 1561,
+      "sha256": "9326409cd9d1993d294a22cea31961890aadc444ceac849aa163709bdef3608c"
+    },
+    {
+      "path": "assets/examples/zoning-fixtures/README.md",
+      "bytes": 758,
+      "sha256": "943d35eb025ab5513715b6cb50ce5d1547368574f7e50d5d0b43d49ccdfc9b16"
+    },
+    {
+      "path": "assets/templates/job-records.json",
+      "bytes": 3139,
+      "sha256": "db0fd4763c1e58ef91ac11079d88d0f5b07c7185f34ff5042a01ce0bc466e1c9"
+    },
+    {
+      "path": "CAD-FILES.html",
+      "bytes": 766,
+      "sha256": "2286434f2b0989a519e8b963c144a8cc88a728d9114afb4af76a85735a3abfd7"
+    },
+    {
+      "path": "CAD-FILES.md",
+      "bytes": 741,
+      "sha256": "37136122340d5d68b52879d2bfcab15114ae33ea819703e248dfb1b5e79a6cfc"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 898,
+      "sha256": "90bd632b1900d432c403677d31e9e0f849ef8f2a17fdcbd22e12d74c5ba2111c"
+    },
+    {
+      "path": "mcp/autocad-mcp/LICENSE",
+      "bytes": 1107,
+      "sha256": "1041ee7a590909eee6e405535254c3c7c16b3064719f342516ed209248a51051"
+    },
+    {
+      "path": "mcp/autocad-mcp/lisp-code/attribute_tools.lsp",
+      "bytes": 15170,
+      "sha256": "caafc29ee794b2c4dca1b1a075f4d273b82a3f03ae0f9df282feee57bd5a3056"
+    },
+    {
+      "path": "mcp/autocad-mcp/lisp-code/mcp_dispatch.lsp",
+      "bytes": 50788,
+      "sha256": "df229fcd4f9f358bc55194acd7caf7f7f7b3d889f3b172f750c47f69f3960505"
+    },
+    {
+      "path": "mcp/autocad-mcp/pyproject.toml",
+      "bytes": 673,
+      "sha256": "5d7720d6dfb4d41d64ff819fd265dec09496a6bbda29a07527107a88ae16ca74"
+    },
+    {
+      "path": "mcp/autocad-mcp/README.md",
+      "bytes": 9420,
+      "sha256": "361ad3bd3f55749818eb5e3217718e131464719616f2e4652281ec952b4092cc"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/__init__.py",
+      "bytes": 95,
+      "sha256": "9ec00870ea42e64c74d48cf9f5f05d887381532b46540c5ab17035c5cd16893c"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/__main__.py",
+      "bytes": 91,
+      "sha256": "e45dd0410e84a5e3f6ef4e486dd084d6192d44f50d2cc1e00e1a40b7999b410c"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/backends/__init__.py",
+      "bytes": 48,
+      "sha256": "e1800bd1f4e3b9e9982fe3a7ff32c56a23bd158b7215bc31559ea9489ed202a1"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/backends/base.py",
+      "bytes": 14029,
+      "sha256": "79c0da17b0c3cc0f1353702a903499ec240b9dccb7f5b3399c3ea4e7eb315ace"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/backends/ezdxf_backend.py",
+      "bytes": 34318,
+      "sha256": "8153dd2000a0108cd15a3d9699260f54b1b4a277d05af07ee50065c88d9b7691"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/backends/file_ipc.py",
+      "bytes": 22911,
+      "sha256": "9503e0b524f3551784b897f0a2af57960bcf09e775cb0df51fa0f36d9022f8fd"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/client.py",
+      "bytes": 5548,
+      "sha256": "2641d8536afe0dbabac26d9c1baaceee27eab16be694a676e7e3e2b78f301e98"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/config.py",
+      "bytes": 3813,
+      "sha256": "b1077019a27b318494f6b1ab9181ff1f57cd21db57b7f1287211977ce919adcb"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/pid/__init__.py",
+      "bytes": 41,
+      "sha256": "6aa71da719e7fc938843cb9f35e7659301f2a3e416332a80c63f9a4fff6a22a8"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/pid/cto_library.py",
+      "bytes": 3140,
+      "sha256": "352fcaa3e4de2478a04d5aa4bc996efdeb18c1dd7880288d149550b75c0f770f"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/screenshot.py",
+      "bytes": 6426,
+      "sha256": "7867223d9475af8ed7131c6f2f64fbb16635d4e45374e664096de4524d7ddfe6"
+    },
+    {
+      "path": "mcp/autocad-mcp/src/autocad_mcp/server.py",
+      "bytes": 22704,
+      "sha256": "0a9d05737e18f7056767a9b2143e864b4e1911ba42a7afa19df00e9836b9bac6"
+    },
+    {
+      "path": "mcp/autocad-mcp/uv.lock",
+      "bytes": 340737,
+      "sha256": "a0c4bf59d032362cf64287d42af3c1488eaf0deb8b005f013584dd79f05849f5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3224,
+      "sha256": "62d72e816872fa6d8888a88cd5cbe0566af6473ad5aa121e121f7da630d57370"
+    },
+    {
+      "path": "references/benchmark.md",
+      "bytes": 1014,
+      "sha256": "00d61527f85206e62bf4c96d4d6004631718ebdcf48739fed0fcc31c186545c0"
+    },
+    {
+      "path": "references/cad-execution.md",
+      "bytes": 4075,
+      "sha256": "0267e0a015f326fbec4fb7bfa4af52f40b8834ef03f074f6757f9bc35be3c635"
+    },
+    {
+      "path": "references/detail-rules.md",
+      "bytes": 1692,
+      "sha256": "3eef52269245a86ace5393b4d9a8dabc00da06f5d30c52d91b5549826ddd4b4a"
+    },
+    {
+      "path": "references/input-contract.md",
+      "bytes": 1566,
+      "sha256": "2e09a0f492bebdb2d7072a72bcd4f11cc7cf31c654bc2f021601fb8cdeca4d01"
+    },
+    {
+      "path": "references/installation.md",
+      "bytes": 3184,
+      "sha256": "70562af9524e7dd0d1bb8e02b945b01ad9abf4a31d92385f714a67c9759ca6f6"
+    },
+    {
+      "path": "references/job-records.md",
+      "bytes": 2688,
+      "sha256": "dcf55c33be171ab4aec4d0a6c76eb400f6a526a3958e238ccf6cf556d2b0056a"
+    },
+    {
+      "path": "references/project-profile.md",
+      "bytes": 1579,
+      "sha256": "46e29999ea93f28452ffa5d6674b227a348ac233a7c7544395867b47c21ca567"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 7640,
+      "sha256": "2f0439db85c8f594b38a1b68a5a47866b46a26a3a9432ece8b9758812e5882c1"
+    },
+    {
+      "path": "scripts/cad-guard.lsp",
+      "bytes": 1796,
+      "sha256": "5302f537b989fb17ec88c20805b0bf732b737d98b3dc5419ad23a6febb6711bc"
+    },
+    {
+      "path": "scripts/cad-smoke.lsp",
+      "bytes": 3106,
+      "sha256": "68ba8b1823abd34ac551d43fe08791989be83e4b4639319b08f195c917c5bc97"
+    },
+    {
+      "path": "scripts/Connect-CAD.ps1",
+      "bytes": 1228,
+      "sha256": "7f85e18c31b200b346eb1ba1d7c50a70e226ee49c183de76c6309339db21adb9"
+    },
+    {
+      "path": "scripts/Install.ps1",
+      "bytes": 2526,
+      "sha256": "1c91a3f5f5ca91d913342e490e33ee038108a2c4125f86365c96632b5feee26c"
+    },
+    {
+      "path": "scripts/New-JobDrawing.ps1",
+      "bytes": 1487,
+      "sha256": "9e866fadeee2d33f26790b40658cb8c1359da18117ecbcc2c90d08e2d75df963"
+    },
+    {
+      "path": "scripts/Open-CAD.ps1",
+      "bytes": 592,
+      "sha256": "9f0aa69bb728897eb63d6e3c3240b2516c028cce774eb0c8eca12ce2b550e6ac"
+    },
+    {
+      "path": "scripts/refresh_manifest.py",
+      "bytes": 758,
+      "sha256": "faa30305a4ce45b538e90b7ad55e92fc80a988ad00317fa199f5131732c890fb"
+    },
+    {
+      "path": "scripts/setup_mcp.py",
+      "bytes": 2420,
+      "sha256": "ad495c71a8380d5ca75cac93b1055088405f7ccd36af570dd4c1754b4ef3a4cc"
+    },
+    {
+      "path": "scripts/validate_public.py",
+      "bytes": 1520,
+      "sha256": "cbe46426edcc94c266d27e02c72cf0cc1643e664fde018dfdd5924156e0ac6fa"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "bytes": 1569,
+      "sha256": "89b4bc908ad872e6f776f19f1d3bd89490c0f224a160710aab7389ec75b5b0a9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3057,
+      "sha256": "4611e3c0b98453e1b432660436b74836557609c2b6e2aeba7976430a8b29096a"
+    },
+    {
+      "path": "tests/layer-geometry.js",
+      "bytes": 4879,
+      "sha256": "b5c7189a854de67b6fa5463c0817cd7a8f0acaf079a1c01945687713391d3f46"
+    },
+    {
+      "path": "tests/test-geometry.cjs",
+      "bytes": 2391,
+      "sha256": "b682b7488a70d8d5d696bed815b66b1520ffcf594d85e64d44fee2c90b94adb6"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 627,
+      "sha256": "5ae26c599356494e3cf7d5cf0b21d29490609d8e16c2419720ef9ed38ff28cd2"
+    },
+    {
+      "path": "validation/report.json",
+      "bytes": 204,
+      "sha256": "70acf39ee0d30811792b9f1ebe0c422f771e819d4131c1878b092e3f0c171b02"
+    }
+  ]
+}

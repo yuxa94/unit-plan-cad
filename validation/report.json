@@ -1,0 +1,7 @@
+{
+  "version": "0.3.0-public",
+  "actual_project_cad_included": false,
+  "live_cad_installation": "not_run_for_public_edition",
+  "reference_benchmark": "not_run",
+  "plot_verification": "not_run"
+}

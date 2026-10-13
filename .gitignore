@@ -1,0 +1,21 @@
+# Local project material and machine-specific state
+private-assets/
+profiles/
+jobs/
+.runtime/
+.setup/
+.venv/
+__pycache__/
+*.pyc
+*.dwg
+*.DWG
+*.bak
+*.dwl
+*.dwl2
+*.pdf
+*.png
+*.jpg
+*.zip
+.env
+.env.*
+dist/

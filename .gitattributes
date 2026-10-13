@@ -1,0 +1,2 @@
+# Preserve exact packaged bytes so manifest hashes survive every checkout.
+* -text
