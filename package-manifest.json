@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0-public",
+  "version": "0.3.1-education",
   "files": [
     {
       "path": ".gitattributes",
@@ -18,8 +18,13 @@
     },
     {
       "path": "agents/openai.yaml",
-      "bytes": 282,
-      "sha256": "e98037df5f966f94fac5f738f56e6825dd153b1de128271819c15ca46b51f9cd"
+      "bytes": 320,
+      "sha256": "522f055a94759cdf19b3b855130ee5340ae95e86c0312908598c0d40b02a7267"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3011,
+      "sha256": "20feb75f3838cdabedf624512bc3521ac39de6d000ca3c5e9d669330f1511567"
     },
     {
       "path": "assets/examples/zoning-editor/index.html",
@@ -208,8 +213,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 898,
-      "sha256": "90bd632b1900d432c403677d31e9e0f849ef8f2a17fdcbd22e12d74c5ba2111c"
+      "bytes": 1440,
+      "sha256": "58c903fc71db3ed02ad08f8d7b5bbec65fb5eda8f448edf62a63508be793d053"
     },
     {
       "path": "mcp/autocad-mcp/LICENSE",
@@ -303,8 +308,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3224,
-      "sha256": "62d72e816872fa6d8888a88cd5cbe0566af6473ad5aa121e121f7da630d57370"
+      "bytes": 4841,
+      "sha256": "9180002afaa40f1f2dcb2fefab8bdba647f4d71ad4ca4105362e549315d8f264"
     },
     {
       "path": "references/benchmark.md",
@@ -328,8 +333,8 @@
     },
     {
       "path": "references/installation.md",
-      "bytes": 3184,
-      "sha256": "70562af9524e7dd0d1bb8e02b945b01ad9abf4a31d92385f714a67c9759ca6f6"
+      "bytes": 4000,
+      "sha256": "d0b5dc864c4c97f99bdfd322e5b75621ab53857d5dc82268ecafb59099222661"
     },
     {
       "path": "references/job-records.md",
@@ -378,8 +383,8 @@
     },
     {
       "path": "scripts/refresh_manifest.py",
-      "bytes": 758,
-      "sha256": "faa30305a4ce45b538e90b7ad55e92fc80a988ad00317fa199f5131732c890fb"
+      "bytes": 761,
+      "sha256": "c25edbde90f5264ccde95c46787d78fb4a5286be13a5ef892b78640c11b38881"
     },
     {
       "path": "scripts/setup_mcp.py",
@@ -398,8 +403,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 3057,
-      "sha256": "4611e3c0b98453e1b432660436b74836557609c2b6e2aeba7976430a8b29096a"
+      "bytes": 3615,
+      "sha256": "22ccab3058318ec4f9dc503eff0aa74dc93fee03e409e9618e2d6a33a554e924"
     },
     {
       "path": "tests/layer-geometry.js",

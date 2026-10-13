@@ -1,4 +1,7 @@
 interface:
-  display_name: "Unit Plan CAD"
-  short_description: "Draft apartment plans with CAD MCP and your own local references"
-  default_prompt: "Use $unit-plan-cad to draft my zoning using my local project reference. Confirm the input and project profile before drafting."
+  display_name: "Unit Plan CAD · Explicit Use Only"
+  short_description: "Teaching reference skill; explicit invocation only"
+  default_prompt: "Explicitly use the completed $unit-plan-cad reference skill for this exercise with my local project reference."
+
+policy:
+  allow_implicit_invocation: false

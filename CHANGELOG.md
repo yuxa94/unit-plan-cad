@@ -1,3 +1,11 @@
+# 0.3.1-education — 2026-10-13
+
+- Disabled implicit skill invocation with `policy.allow_implicit_invocation: false`.
+- Added repository teaching instructions: do not automatically apply, install or substitute the completed packaged skill during exercises.
+- Distinguished explicit use from reading/comparison and quoted prompt examples.
+- Changed the default quick start to MCP-only setup; installing the completed skill is an explicit optional action.
+- Retained direct invocation for users who choose to use the completed skill.
+
 # 0.3.0-public — 2026-10-13
 
 - Created a public edition of the existing local skill without actual project CAD material.

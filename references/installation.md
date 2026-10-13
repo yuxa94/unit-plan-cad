@@ -6,7 +6,18 @@
 
 Windows, Codex, Windows Python 3.10+, 일반 AutoCAD. 이 패키지의 COM 도우미는 일반 AutoCAD용이며 LT에서는 검증하지 않았습니다. 동봉 MCP 자체의 LT 설명과 구분하세요. 최초 의존성 설치에는 네트워크가 필요할 수 있습니다.
 
-## 설치
+## 교육 실습: 완성 스킬 설치 없이 MCP 연결
+
+일반적인 수업 시작에서는 저장소 폴더에서 다음만 실행합니다.
+
+```powershell
+python scripts/verify_package.py
+python scripts/setup_mcp.py
+```
+
+저장소 안의 .runtime과 .setup을 준비하며 사용자 스킬 폴더에는 설치하지 않습니다. 아래 MCP 설정 반영과 APPLOAD 절차를 따라 연결합니다. [교육 지침](../AGENTS.md)을 먼저 적용하고, 일반 CAD 실습 요청에 동봉 완성 스킬을 자동 사용하지 않습니다.
+
+## 선택 설치: 사용자가 완성 스킬 설치를 명시한 경우
 
 저장소를 복제하거나 ZIP을 폴더 전체로 풉니다. 저장소 폴더에서 실행합니다.
 
@@ -14,6 +25,8 @@ Windows, Codex, Windows Python 3.10+, 일반 AutoCAD. 이 패키지의 COM 도�
 python scripts/verify_package.py
 powershell -File scripts/Install.ps1 -PythonPath "C:\path\to\python.exe"
 ```
+
+설치 후에도 agents/openai.yaml의 allow_implicit_invocation은 false입니다. 사용자가 `$unit-plan-cad` 또는 완성 스킬 사용을 직접 명시한 요청에서만 적용합니다.
 
 설치기는 CODEX_HOME/skills/unit-plan-cad 또는 사용자 .codex/skills/unit-plan-cad에 파일을 복사합니다. 기존 동일 스킬을 덮어쓰지 않습니다. 이미 설치되어 있으면 명시적인 업그레이드 계획을 세우거나 -DestinationRoot로 별도 경로를 사용하세요. 현재 Codex에서 스킬이 발견되는지 확인하고 필요한 경우 경로로 SKILL.md를 직접 지정합니다.
 

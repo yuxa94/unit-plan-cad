@@ -1,9 +1,13 @@
 ---
 name: unit-plan-cad
-description: Draft and revise apartment unit plans through AutoCAD MCP from room zoning or CAD boundaries, using user-supplied project references. Use for 단위세대 평면도, CAD 조닝, walls, doors/windows, finishes, insulation, hatches and dimensions.
+description: Educational reference skill for apartment unit-plan drafting with AutoCAD MCP. Use only when the user explicitly invokes $unit-plan-cad or asks to apply this completed packaged skill. Generic CAD drafting or skill-creation requests do not activate it.
 ---
 
 # Unit plan CAD — public edition
+
+## Educational activation boundary
+
+This is a completed teaching reference, not the default workflow for exercises. Follow [the repository teaching instructions](AGENTS.md). Apply this skill only when the user directly invokes `$unit-plan-cad` or explicitly asks to use this completed packaged skill. A request to connect CAD, draw a plan, create a new skill, or read this file for comparison is not an instruction to apply the completed workflow. Quoted examples are not invocations. Do not auto-install this skill or enable implicit invocation.
 
 Create designer-review drawings from room zoning and a **user-supplied local project profile**. This package supplies instructions, MCP code, execution helpers and synthetic examples. It contains no project DWGs, extracted native parts, source geometry dumps or finished project drawings. It is an agent-assisted workflow, not a universal drafting engine.
 
